@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>余泰宗 | 個人升學運動歷程檔案</title>
+  <meta name="description" content="余泰宗個人升學檔案 - 治平高中體育班畢業、800公尺全國前10名（1分59秒）、具備優秀領導與組織能力。">
+  
+  <!-- Google Fonts: Noto Sans TC & Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,800;0,900;1,700&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    :root {
+      --primary: #f97316; /* 充滿活力與衝勁的運動橘 */
+      --primary-hover: #ea580c;
+      --primary-glow: rgba(249, 115, 22, 0.25);
+      --bg-dark: #090d16;
+      --card-bg: #111827;
+      --card-border: #1f2937;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --accent-blue: #38bdf8;
+      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* 頂部導航 */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(9, 13, 22, 0.85);
+      backdrop-filter: blur(12px);
+      z-index: 1000;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .nav-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 900;
+      font-size: 1.35rem;
+      color: #fff;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .logo span {
+      color: var(--primary);
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 1.5rem;
+      align-items: center;
+    }
+
+    nav a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: var(--transition);
+    }
+
+    nav a:hover {
+      color: var(--primary);
+    }
+
+    .btn-contact {
+      background: var(--primary);
+      color: #fff !important;
+      padding: 0.45rem 1.1rem;
+      border-radius: 9999px;
+      font-weight: 700;
+      box-shadow: 0 4px 15px var(--primary-glow);
+    }
+
+    .btn-contact:hover {
+      background: var(--primary-hover);
+      transform: translateY(-1px);
+    }
+
+    /* 共用容器與區塊 */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 5rem 1.5rem;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 900;
+      text-align: center;
+      margin-bottom: 0.8rem;
+      color: #fff;
+      letter-spacing: -0.02em;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: var(--text-muted);
+      margin-bottom: 3.5rem;
+      font-size: 1.05rem;
+    }
+
+    .highlight-text {
+      color: var(--primary);
+    }
+
+    /* Hero Section 主視覺 */
+    .hero {
+      min-height: 92vh;
+      display: flex;
+      align-items: center;
+      padding-top: 5rem;
+      position: relative;
+      background: radial-gradient(circle at 80% 20%, rgba(249, 115, 22, 0.12) 0%, transparent 60%),
+                  radial-gradient(circle at 20% 80%, rgba(56, 189, 248, 0.08) 0%, transparent 60%);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(249, 115, 22, 0.1);
+      border: 1px solid rgba(249, 115, 22, 0.3);
+      padding: 0.4rem 1rem;
+      border-radius: 9999px;
+      color: var(--primary);
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-bottom: 1.2rem;
+    }
+
+    .hero h1 {
+      font-size: 3.2rem;
+      font-weight: 900;
+      line-height: 1.15;
+      margin-bottom: 1.2rem;
+      color: #ffffff;
+    }
+
+    .hero-subtitle {
+      font-size: 1.2rem;
+      color: var(--text-muted);
+      margin-bottom: 2rem;
+      max-width: 580px;
+    }
+
+    .hero-cta {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 0.8rem 1.8rem;
+      border-radius: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+      box-shadow: 0 4px 20px var(--primary-glow);
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 25px rgba(249, 115, 22, 0.4);
+    }
+
+    .btn-outline {
+      border: 1px solid var(--card-border);
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--text-main);
+    }
+
+    .btn-outline:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: var(--text-muted);
+      transform: translateY(-2px);
+    }
+
+    /* 形象相片框 */
+    .hero-image-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero-image-card {
+      width: 100%;
+      max-width: 360px;
+      aspect-ratio: 4 / 5;
+      background: linear-gradient(145deg, #1f2937, #111827);
+      border-radius: 24px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-image-card::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(249, 115, 22, 0.15) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .avatar-icon {
+      font-size: 5rem;
+      color: var(--primary);
+      margin-bottom: 1.2rem;
+    }
+
+    .avatar-label {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #fff;
+    }
+
+    .avatar-note {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 0.5rem;
+    }
+
+    /* 亮點統計卡片 (Stat Cards) */
+    .stat-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin-top: -2rem;
+      position: relative;
+      z-index: 10;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      padding: 2rem;
+      border-radius: 18px;
+      text-align: center;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stat-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    .stat-number {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.8rem;
+      font-weight: 900;
+      color: var(--primary);
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+
+    .stat-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.4rem;
+    }
+
+    .stat-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+
+    /* 關於我 (About) */
+    .about-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      padding: 2.5rem;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    }
+
+    .about-paragraphs {
+      font-size: 1.05rem;
+      color: #d1d5db;
+      line-height: 1.85;
+    }
+
+    .about-paragraphs p {
+      margin-bottom: 1.2rem;
+    }
+
+    .key-points {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.2rem;
+      margin-top: 2rem;
+    }
+
+    .point-item {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      padding: 1.2rem;
+      border-radius: 12px;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    .point-icon {
+      color: var(--primary);
+      font-size: 1.3rem;
+      margin-top: 0.2rem;
+    }
+
+    .point-item h4 {
+      font-size: 1rem;
+      color: #fff;
+      margin-bottom: 0.25rem;
+    }
+
+    .point-item p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-bottom: 0;
+    }
+
+    /* 經歷與賽事成就 (Timeline) */
+    .timeline {
+      position: relative;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 2px;
+      background: var(--card-border);
+      top: 0;
+      bottom: 0;
+      left: 20px;
+    }
+
+    .timeline-item {
+      position: relative;
+      padding-left: 55px;
+      margin-bottom: 2.5rem;
+    }
+
+    .timeline-dot {
+      position: absolute;
+      left: 11px;
+      top: 5px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--bg-dark);
+      border: 4px solid var(--primary);
+      z-index: 2;
+    }
+
+    .timeline-content {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 1.8rem;
+      transition: var(--transition);
+    }
+
+    .timeline-content:hover {
+      border-color: rgba(249, 115, 22, 0.5);
+    }
+
+    .timeline-tag {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 0.25rem 0.75rem;
+      border-radius: 6px;
+      background: rgba(56, 189, 248, 0.15);
+      color: var(--accent-blue);
+      margin-bottom: 0.6rem;
+    }
+
+    .timeline-title {
+      font-size: 1.25rem;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+
+    .timeline-text {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    /* 升學動機與未來規劃 (Future Plan) */
+    .plan-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.8rem;
+    }
+
+    .plan-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 18px;
+      padding: 2.2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      transition: var(--transition);
+    }
+
+    .plan-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--primary);
+    }
+
+    .plan-number {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 900;
+      color: var(--primary);
+    }
+
+    .plan-card h3 {
+      font-size: 1.25rem;
+      color: #fff;
+    }
+
+    .plan-card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* 聯絡資訊 (Contact) */
+    .contact-wrapper {
+      background: linear-gradient(135deg, rgba(249, 115, 22, 0.08), rgba(17, 24, 39, 0.9));
+      border: 1px solid rgba(249, 115, 22, 0.2);
+      border-radius: 24px;
+      padding: 3.5rem 2rem;
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .contact-cards {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .contact-item {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      padding: 1.5rem 2rem;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      color: #fff;
+      text-decoration: none;
+      transition: var(--transition);
+      min-width: 250px;
+    }
+
+    .contact-item:hover {
+      border-color: var(--primary);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+    }
+
+    .contact-icon {
+      font-size: 1.8rem;
+      color: var(--primary);
+    }
+
+    .contact-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-align: left;
+    }
+
+    .contact-val {
+      font-size: 1rem;
+      font-weight: 700;
+      text-align: left;
+    }
+
+    /* 頁尾 */
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    /* 行動裝置響應 (Responsive) */
+    @media (max-width: 768px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2.5rem;
+      }
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+      .hero-subtitle {
+        margin: 0 auto 2rem auto;
+      }
+      .hero-cta {
+        justify-content: center;
+      }
+      .stat-cards-grid {
+        grid-template-columns: 1fr;
+        margin-top: 1rem;
+      }
+      nav ul {
+        display: none; /* 可選純靜態簡約切換 */
+      }
+      .section-title {
+        font-size: 1.7rem;
+      }
+    }
+
+    /* 列印與備審 PDF 友善設定 */
+    @media print {
+      body {
+        background: #fff;
+        color: #000;
+      }
+      header, footer, .hero-cta, .btn-contact {
+        display: none !important;
+      }
+      .stat-card, .timeline-content, .about-card, .plan-card, .contact-wrapper {
+        border: 1px solid #ccc !important;
+        background: #fff !important;
+        color: #000 !important;
+        box-shadow: none !important;
+      }
+      .stat-number, .highlight-text, .timeline-tag {
+        color: #d9480f !important;
+      }
+      .stat-title, .timeline-title, .plan-card h3, .hero h1 {
+        color: #000 !important;
+      }
+      .timeline::after {
+        background: #ddd;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 頂部導航 -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <i class="fa-solid fa-person-running"></i>
+        <span>余泰宗</span> PORTFOLIO
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#about">關於我</a></li>
+          <li><a href="#achievements">競賽成就</a></li>
+          <li><a href="#skills">核心特質</a></li>
+          <li><a href="#aspirations">升學展望</a></li>
+          <li><a href="#contact" class="btn-contact">聯絡我</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 主視覺 Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="hero-badge">
+          <i class="fa-solid fa-trophy"></i> 全國高中 800m 前10名・治平高中體育班
+        </div>
+        <h1>
+          以堅毅意志跨越挑戰<br>
+          用<span class="highlight-text">領導與組織</span>追求卓越
+        </h1>
+        <p class="hero-subtitle">
+          我是 <strong>余泰宗</strong>。具備頂尖中長跑競賽意志與團隊溝通能力的田徑選手。將運動員的「專注、抗壓、配速思維」注入未來大學專業學習與自我實踐中。
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">
+            <i class="fa-solid fa-paper-plane"></i> 聯絡諮詢
+          </a>
+          <a href="#achievements" class="btn btn-outline">
+            <i class="fa-solid fa-medal"></i> 查看競賽亮點
+          </a>
+          <button onclick="window.print()" class="btn btn-outline" title="可直接另存為 PDF 備審資料">
+            <i class="fa-solid fa-print"></i> 列印 / 存為 PDF
+          </button>
+        </div>
+      </div>
+
+      <!-- 形象照展示卡片（可自行替換真實照片） -->
+      <div class="hero-image-wrapper">
+        <div class="hero-image-card">
+          <i class="fa-solid fa-person-running avatar-icon"></i>
+          <div class="avatar-label">余泰宗 (Tai-Tzong Yu)</div>
+          <p class="avatar-note">治平高中體育班畢業生<br>中長跑專項・熱愛籃球運動</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 核心亮點數據卡 -->
+  <div class="container">
+    <div class="stat-cards-grid">
+      <div class="stat-card">
+        <div class="stat-number">1:59</div>
+        <div class="stat-title">800公尺個人最佳成績</div>
+        <div class="stat-desc">破2分鐘高標門檻，展現高強度爆發力與末段意志力</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">TOP 10</div>
+        <div class="stat-title">全國高中賽事頂尖排名</div>
+        <div class="stat-desc">在全國頂尖好手激戰中挺進前十，具備穩定的大賽抗壓心理</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">100%</div>
+        <div class="stat-title">團隊領導與組織實踐</div>
+        <div class="stat-desc">體育班團隊訓練協作、戰術溝通、激勵夥伴共同成長</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 關於我 About Me -->
+  <section id="about" class="container">
+    <h2 class="section-title">關於我 <span>/ ABOUT ME</span></h2>
+    <p class="section-subtitle">專注於每一步的配速，在不斷突破自我的跑道上成長</p>
+
+    <div class="about-card">
+      <div class="about-paragraphs">
+        <p>
+          我是<strong>余泰宗</strong>，畢業於<strong>桃園市私立治平高級中學體育班</strong>。在高中三年的高強度專業運動員體系中，我主攻 <strong>800公尺中長距離徑賽</strong>。中長跑是一項需要「極度自律、科學配速以及在生理極限時依然保持清醒判斷」的運動，這段歷練形塑了我面對任何未知與挑戰時絕不輕言放棄的心理韌性。
+        </p>
+        <p>
+          除了田徑專項上的精益求精，我熱愛<strong>籃球運動</strong>。團體球類運動培養了我寬廣的賽場視野與戰術理解，更讓我淬鍊出敏銳的「團隊領導與組織溝通能力」。在團隊中，我習慣擔任帶動士氣、協調夥伴節奏的角色，無論是訓練時的互助或賽場上的合作，我總能以積極的行動感染團隊。
+        </p>
+      </div>
+
+      <div class="key-points">
+        <div class="point-item">
+          <i class="fa-solid fa-stopwatch-20 point-icon"></i>
+          <div>
+            <h4>高度自律與時間管理</h4>
+            <p>日復一日清晨與午後的高強度專項訓練，兼顧體能巔峰與學習平衡。</p>
+          </div>
+        </div>
+        <div class="point-item">
+          <i class="fa-solid fa-users-gear point-icon"></i>
+          <div>
+            <h4>團隊組織與戰術協作</h4>
+            <p>擅於傾聽夥伴反饋，能在團隊面臨低潮時提振士氣並整合目標方向。</p>
+          </div>
+        </div>
+        <div class="point-item">
+          <i class="fa-solid fa-brain point-icon"></i>
+          <div>
+            <h4>強大的抗壓與冷靜心態</h4>
+            <p>面對高強度全國決賽氛圍，能沉著落實配速戰術、克服身體疲勞臨界點。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 競賽成就 Achievements -->
+  <section id="achievements" class="container">
+    <h2 class="section-title">運動歷程與競賽成就 <span>/ ACHIEVEMENTS</span></h2>
+    <p class="section-subtitle">每一秒的進步，背後都是數千圈跑道的汗水淬鍊</p>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-tag">全國性頂尖榮譽</span>
+          <h3 class="timeline-title">全國高中 800 公尺項目・榮獲全國前 10 名</h3>
+          <p class="timeline-text">
+            面對來自全臺灣各高中體育強校的激烈角逐，在全國大賽中穩定發揮，憑藉冷靜的跟跑與末段加速戰術，成功挺進全國前十強，展現國家級高中組競爭實力。
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-tag">生涯個人最佳 PB</span>
+          <h3 class="timeline-title">800公尺個人最佳紀錄：1 分 59 秒</h3>
+          <p class="timeline-text">
+            在 800 公尺中長跑項目中，「破 2 分鐘」是高水準中長跑選手極具指標性的重要分水嶺。達成 1 分 59 秒的優異表現，驗證了訓練期間生理體能儲備與配速策略的精準執行。
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-tag">校園與團隊歷練</span>
+          <h3 class="timeline-title">治平高中體育班・專業運動訓練養成</h3>
+          <p class="timeline-text">
+            在治平高中優良體育傳統的嚴謹訓練下，不僅鍛鍊扎實的運動專項技術，更在集體作息與同儕切磋中，建立了深厚的團隊紀律、責任感與榮譽心。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 核心特質 Skills & Leadership -->
+  <section id="skills" class="container">
+    <h2 class="section-title">核心特質與軟實力 <span>/ CORE COMPETENCIES</span></h2>
+    <p class="section-subtitle">體育不僅是身體能力的展現，更是品格與思維的修煉</p>
+
+    <div class="plan-grid">
+      <div class="plan-card">
+        <i class="fa-solid fa-bullhorn point-icon" style="font-size: 2rem;"></i>
+        <h3>領導與組織溝通</h3>
+        <p>在田徑隊與各項體育競賽團隊中，扮演教練與選手間的溝通橋樑；具備凝聚團隊向心力、調解歧見並推動群體朝向共同目標前進的組織能力。</p>
+      </div>
+
+      <div class="plan-card">
+        <i class="fa-solid fa-basketball point-icon" style="font-size: 2rem;"></i>
+        <h3>多元運動敏銳度</h3>
+        <p>除了中長跑田徑專長外，對籃球運動擁有深厚熱情。擅於觀察場上局勢與球員跑位，具備良好的動態視力、空間感及瞬間臨場決策力。</p>
+      </div>
+
+      <div class="plan-card">
+        <i class="fa-solid fa-shield-halved point-icon" style="font-size: 2rem;"></i>
+        <h3>心理素質與反脆弱能力</h3>
+        <p>運動場勝負瞬息萬變，具備從低潮與運動傷痛中自我復盤檢討的能力，將挫折轉化為下一次進步的動能，始終保持謙遜、專注與渴望求勝的求知慾。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 升學動機與未來展望 Aspirations -->
+  <section id="aspirations" class="container">
+    <h2 class="section-title">升學目標與未來展望 <span>/ ASPIRATIONS</span></h2>
+    <p class="section-subtitle">帶著體育精神邁向大學殿堂，開拓更寬廣的專業領域</p>
+
+    <div class="plan-grid">
+      <div class="plan-card">
+        <div class="plan-number">01 / 短期目標</div>
+        <h3>融入大學殿堂與專項深造</h3>
+        <p>迅速適應大學學術節奏與體能訓練課表，代表大專院校持續爭取出賽榮耀，並結合科學化運動生理與肌力體能訓練，力求競技成績再創新高。</p>
+      </div>
+
+      <div class="plan-card">
+        <div class="plan-number">02 / 中期目標</div>
+        <h3>運動科學與跨領域專業整合</h3>
+        <p>積極修習運動防護、運動生理學、休閒管理或教練指導等跨領域知識，將高中以來的實戰經驗轉化為理論與系統化專業架構。</p>
+      </div>
+
+      <div class="plan-card">
+        <div class="plan-number">03 / 長期目標</div>
+        <h3>發揮領導價值、回饋體壇</h3>
+        <p>期許未來能運用自身在領導、組織及體育競技的綜合專長，投入體育教育、運動訓練管理或運動健康推廣產業，帶動更多人享受運動的價值。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 聯絡方式 Contact -->
+  <section id="contact" class="container">
+    <div class="contact-wrapper">
+      <h2 class="section-title" style="margin-bottom: 0.5rem;">聯絡方式 <span>/ CONTACT</span></h2>
+      <p style="color: var(--text-muted); font-size: 1.05rem;">
+        誠摯感謝各位教授與審查委員的撥冗審閱，歡迎透過以下方式與我進一步聯繫交流！
+      </p>
+
+      <div class="contact-cards">
+        <a href="mailto:taps20143104@gmail.com" class="contact-item">
+          <i class="fa-solid fa-envelope contact-icon"></i>
+          <div>
+            <div class="contact-label">電子信箱 Email</div>
+            <div class="contact-val">taps20143104@gmail.com</div>
+          </div>
+        </a>
+
+        <a href="tel:0925890821" class="contact-item">
+          <i class="fa-solid fa-phone contact-icon"></i>
+          <div>
+            <div class="contact-label">聯絡電話 Mobile</div>
+            <div class="contact-val">0925-890-821</div>
+          </div>
+        </a>
+      </div>
+
+      <div style="margin-top: 2rem;">
+        <span style="font-size: 0.9rem; color: var(--text-muted);">
+          <i class="fa-solid fa-location-dot" style="color: var(--primary);"></i> 所在地：台灣 (Taiwan)
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 頁尾 Footer -->
+  <footer>
+    <p>© 2026 余泰宗 (Yu Tai-Tzong). 升學專用個人作品集網站.</p>
+    <p style="font-size: 0.8rem; margin-top: 0.4rem; color: #6b7280;">Built with Modern Responsive Web Design &amp; Hosted on GitHub Pages.</p>
+  </footer>
+
+</body>
+</html>
