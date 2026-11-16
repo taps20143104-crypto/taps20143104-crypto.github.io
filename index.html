@@ -611,6 +611,264 @@
         background: #ddd;
       }
     }
+
+    /* 專案成果區塊 (Project / Research Section) */
+    .project-header-box {
+      background: linear-gradient(135deg, rgba(249, 115, 22, 0.1), rgba(17, 24, 39, 0.95));
+      border: 1px solid rgba(249, 115, 22, 0.25);
+      border-radius: 20px;
+      padding: 2.2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .project-header-box h3 {
+      font-size: 1.5rem;
+      color: #fff;
+      margin-bottom: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+    }
+
+    .project-header-box p {
+      color: #d1d5db;
+      font-size: 1rem;
+      line-height: 1.8;
+      margin-bottom: 0.8rem;
+    }
+
+    .project-grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .chart-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 18px;
+      padding: 1.8rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: var(--transition);
+    }
+
+    .chart-card:hover {
+      border-color: rgba(249, 115, 22, 0.5);
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .chart-card h4 {
+      font-size: 1.15rem;
+      color: #fff;
+      margin-bottom: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .chart-card p.chart-desc {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 1.2rem;
+    }
+
+    .chart-wrapper {
+      position: relative;
+      width: 100%;
+      height: 280px;
+    }
+
+    .industry-pillars {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .pillar-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      padding: 1.4rem;
+      transition: var(--transition);
+    }
+
+    .pillar-card:hover {
+      border-color: var(--accent-blue);
+      transform: translateY(-3px);
+    }
+
+    .project-banner-img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 14px;
+      margin-bottom: 1.5rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    }
+
+    .pillar-img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 0.9rem;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      transition: var(--transition);
+    }
+
+    .pillar-card:hover .pillar-img {
+      transform: scale(1.02);
+    }
+
+    .project-gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .gallery-item {
+      position: relative;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+      background: var(--card-bg);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+      transition: var(--transition);
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.05);
+    }
+
+    .gallery-caption {
+      padding: 0.8rem 1rem;
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: #fff;
+      background: var(--card-bg);
+      text-align: center;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .pillar-card h5 {
+      color: #fff;
+      font-size: 1.05rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .pillar-card p {
+      color: var(--text-muted);
+      font-size: 0.88rem;
+      line-height: 1.6;
+    }
+
+    .data-table-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 18px;
+      padding: 1.8rem;
+      margin-bottom: 2.5rem;
+      overflow-x: auto;
+    }
+
+    .data-table-card table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    .data-table-card th {
+      padding: 0.85rem 1rem;
+      background: rgba(255, 255, 255, 0.04);
+      color: #fff;
+      border-bottom: 2px solid var(--card-border);
+      font-weight: 700;
+    }
+
+    .data-table-card td {
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      color: #d1d5db;
+    }
+
+    .data-table-card tr:hover td {
+      background: rgba(249, 115, 22, 0.04);
+    }
+
+    .source-list {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 1.8rem 2rem;
+    }
+
+    .source-list h4 {
+      font-size: 1.1rem;
+      color: #fff;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .source-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+    }
+
+    .source-chip {
+      background: rgba(249, 115, 22, 0.1);
+      border: 1px solid rgba(249, 115, 22, 0.25);
+      color: #fb923c;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+      font-size: 0.88rem;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: var(--transition);
+    }
+
+    .source-chip:hover {
+      background: var(--primary);
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px var(--primary-glow);
+    }
+
+    @media (max-width: 768px) {
+      .project-grid-2 {
+        grid-template-columns: 1fr;
+      }
+      .project-gallery-grid {
+        grid-template-columns: 1fr;
+      }
+      .project-banner-img {
+        height: 180px;
+      }
+      .chart-wrapper {
+        height: 240px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -627,6 +885,7 @@
           <li><a href="#about">關於我</a></li>
           <li><a href="#achievements">競賽成就</a></li>
           <li><a href="#skills">核心特質</a></li>
+          <li><a href="#projects">專案成果區塊</a></li>
           <li><a href="#aspirations">升學展望</a></li>
           <li><a href="#contact" class="btn-contact">聯絡我</a></li>
         </ul>
@@ -801,6 +1060,192 @@
     </div>
   </section>
 
+  <!-- 專案成果區塊 Projects & Research -->
+  <section id="projects" class="container">
+    <h2 class="section-title">{專案成果區塊} <span>/ RESEARCH & PROJECTS</span></h2>
+    <p class="section-subtitle">結合理論思維與產業數據，深入研討運動產業之生態格局、科技轉型與未來商機</p>
+
+    <!-- 專案重點介紹 -->
+    <div class="project-header-box">
+      <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1200&q=80" alt="智慧運動科技與產業研發視覺圖" class="project-banner-img">
+      <h3>
+        <i class="fa-solid fa-chart-line" style="color: var(--primary);"></i>
+        運動相關產業深度分析研究報告
+      </h3>
+      <p>
+        本專案立足於運動員實務訓練與宏觀產業經濟視角，全面梳理全球與台灣運動產業之產值脈絡。運動產業正經歷由「傳統硬體製造與賽事門票」朝向「智慧運動科技 (SportsTech)、體驗經濟、運動即醫療 (EIM)」的典範轉移。
+      </p>
+      <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+        <span class="hero-badge" style="margin-bottom: 0;"><i class="fa-solid fa-globe"></i> 全球市場 2026 估值達 5,200+ 億美元</span>
+        <span class="hero-badge" style="margin-bottom: 0;"><i class="fa-solid fa-flag"></i> 台灣總產值近 8,000 億新台幣</span>
+        <span class="hero-badge" style="margin-bottom: 0;"><i class="fa-solid fa-bolt"></i> 運動科技 CAGR 達 23%</span>
+      </div>
+    </div>
+
+    <!-- 數據圖表區塊 (Chart.js) -->
+    <div class="project-grid-2">
+      <!-- 圖表 1：全球運動科技與關鍵子市場規模走勢 -->
+      <div class="chart-card">
+        <div>
+          <h4><i class="fa-solid fa-chart-column" style="color: var(--primary);"></i> 全球運動科技 (SportsTech) 爆發式增長</h4>
+          <p class="chart-desc">數據來源：Grand View Research，單位：十億美元 (USD Billion)</p>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="sportsTechChart"></canvas>
+        </div>
+      </div>
+
+      <!-- 圖表 2：台灣民間運動經濟四大板塊佔比 -->
+      <div class="chart-card">
+        <div>
+          <h4><i class="fa-solid fa-chart-pie" style="color: var(--accent-blue);"></i> 台灣運動經濟核心板塊份額</h4>
+          <p class="chart-desc">數據來源：未來流通研究所 (Mirai Research) 統計推估</p>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="taiwanSportsShareChart"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- 四大核心板塊 -->
+    <h3 style="font-size: 1.35rem; color: #fff; margin-bottom: 1.2rem; text-align: center;">
+      <i class="fa-solid fa-cubes-stacked" style="color: var(--primary);"></i> 運動產業四大核心生態體系
+    </h3>
+    <div class="industry-pillars">
+      <div class="pillar-card">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80" alt="運動製造與硬體設備" class="pillar-img">
+        <h5><i class="fa-solid fa-industry" style="color: var(--primary);"></i> 1. 運動製造與硬體設備</h5>
+        <p>涵蓋高階室內健身器材 (喬山、岱宇)、自行車 (巨大、美利達)、機能性運動鞋服 (寶成、豐泰、儒鴻) 及高爾夫代工，台灣在全球高階製造供應鏈佔據不可或缺的龍頭地位。</p>
+      </div>
+
+      <div class="pillar-card">
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=600&q=80" alt="運動服務與場館經營" class="pillar-img">
+        <h5><i class="fa-solid fa-dumbbell" style="color: var(--accent-blue);"></i> 2. 運動服務與場館經營</h5>
+        <p>台灣規律運動人口攀升至 35.6%，帶動連鎖健身房 (World Gym、健身工廠) 及市民運動中心營運蓬勃發展，運動服務業銷售額突破 540 億元新高。</p>
+      </div>
+
+      <div class="pillar-card">
+        <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=600&q=80" alt="賽事娛樂與文化傳媒" class="pillar-img">
+        <h5><i class="fa-solid fa-trophy" style="color: #eab308;"></i> 3. 賽事娛樂與文化傳媒</h5>
+        <p>職棒 (CPBL) 大巨蛋單季吸引超過 370 萬人次進場，加上職籃 (TPBL/PLG) 與周邊應援經濟，展現職業運動強大的跨界吸金與文化傳播動能。</p>
+      </div>
+
+      <div class="pillar-card">
+        <img src="https://images.unsplash.com/photo-1510519138197-06b8f2d08151?auto=format&fit=crop&w=600&q=80" alt="智慧運動科技" class="pillar-img">
+        <h5><i class="fa-solid fa-microchip" style="color: #10b981;"></i> 4. 智慧運動科技 (SportsTech)</h5>
+        <p>穿戴式裝置 (Garmin, Apple Watch)、AI 姿勢辨識、運動員生理即時監測與沉浸式虛擬運動，將運動訓練邁向數據化與超個人化時代。</p>
+      </div>
+    </div>
+
+    <!-- 產業視覺圖廊 (Visual Gallery) -->
+    <div class="project-gallery-grid">
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?auto=format&fit=crop&w=600&q=80" alt="運動數據分析與智慧感測">
+        <div class="gallery-caption"><i class="fa-solid fa-chart-simple" style="color: var(--primary);"></i> 運動生理數據與演算法分析</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=600&q=80" alt="田徑專項與競技體能訓練">
+        <div class="gallery-caption"><i class="fa-solid fa-person-running" style="color: var(--accent-blue);"></i> 競技運動配速與體能突破</div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1508215885820-4523e431397e?auto=format&fit=crop&w=600&q=80" alt="大型賽事與運動觀光潮">
+        <div class="gallery-caption"><i class="fa-solid fa-medal" style="color: #eab308;"></i> 國際賽事經濟與運動觀光</div>
+      </div>
+    </div>
+
+    <!-- 關鍵子市場對比表格 -->
+    <div class="data-table-card">
+      <h4 style="color: #fff; margin-bottom: 1rem; font-size: 1.1rem;">
+        <i class="fa-solid fa-table-list" style="color: var(--primary);"></i> 全球主要運動子產業市場規模與成長性預估
+      </h4>
+      <table>
+        <thead>
+          <tr>
+            <th>產業類別</th>
+            <th>2025 年規模</th>
+            <th>2026 年預估</th>
+            <th>長線展望 (2030~2033)</th>
+            <th>年複合成長率 (CAGR)</th>
+            <th>核心驅動力</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>運動休閒服飾 (Sportswear)</strong></td>
+            <td>$399.4B</td>
+            <td>$437.4B</td>
+            <td>$890.4B (2033)</td>
+            <td>10.7%</td>
+            <td>Athleisure 穿搭風潮、環保機能布料、女力市場</td>
+          </tr>
+          <tr>
+            <td><strong>運動裝備與器材 (Equipment)</strong></td>
+            <td>$410.9B</td>
+            <td>$437.7B</td>
+            <td>$731.0B (2033)</td>
+            <td>7.5%</td>
+            <td>智慧家用健身、高爾夫人口擴大、露營戶外風</td>
+          </tr>
+          <tr>
+            <td><strong>體育賽事與門票 (Sports Events)</strong></td>
+            <td>$485.1B</td>
+            <td>$520.9B</td>
+            <td>$680.0B+ (2030)</td>
+            <td>6.2%</td>
+            <td>頂級國際錦標賽事商業化、主場球迷體驗經濟</td>
+          </tr>
+          <tr>
+            <td><strong>智慧運動科技 (SportsTech)</strong></td>
+            <td>$23.0B</td>
+            <td>$28.1B</td>
+            <td>$119.6B (2033)</td>
+            <td><span class="highlight-text" style="font-weight: 700;">23.0%</span></td>
+            <td>AI 視覺動作演算法、穿戴生理感測、大數據分析</td>
+          </tr>
+          <tr>
+            <td><strong>運動串流傳播 (Sports Streaming)</strong></td>
+            <td>$38.0B</td>
+            <td>$42.5B</td>
+            <td>$101.6B (2033)</td>
+            <td>12.8%</td>
+            <td>剪線潮、DTC 隨選轉播、即時多視角互動體驗</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 資料來源與超連結 -->
+    <div class="source-list">
+      <h4><i class="fa-solid fa-link" style="color: var(--primary);"></i> 權威研調來源與參考文獻超連結</h4>
+      <div class="source-chips">
+        <a href="https://www.moea.gov.tw" target="_blank" rel="noopener noreferrer" class="source-chip">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> 經濟部統計處 (MOEA)
+        </a>
+        <a href="https://www.sa.gov.tw" target="_blank" rel="noopener noreferrer" class="source-chip">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> 教育部體育署 (Sports Administration)
+        </a>
+        <a href="https://www.ntus.edu.tw" target="_blank" rel="noopener noreferrer" class="source-chip">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> 臺灣運動產業產值數據平台
+        </a>
+        <a href="https://www.mirai.com.tw" target="_blank" rel="noopener noreferrer" class="source-chip">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> 未來流通研究所 (Mirai Research)
+        </a>
+        <a href="https://www.grandviewresearch.com" target="_blank" rel="noopener noreferrer" class="source-chip">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Grand View Research (Sports Market)
+        </a>
+        <a href="https://www.statista.com" target="_blank" rel="noopener noreferrer" class="source-chip">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Statista (Global Sports Industry)
+        </a>
+        <a href="https://www.researchandmarkets.com" target="_blank" rel="noopener noreferrer" class="source-chip">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Research and Markets (Sports Outlook)
+        </a>
+        <a href="https://drive.google.com/drive/folders/1h6UN5JXqFEZB7aViWi7VqPcdm_BvbC7e" target="_blank" rel="noopener noreferrer" class="source-chip" style="background: rgba(56, 189, 248, 0.15); border-color: rgba(56, 189, 248, 0.4); color: #38bdf8;">
+          <i class="fa-brands fa-google-drive"></i> Google 雲端完整專案報告目錄
+        </a>
+      </div>
+    </div>
+  </section>
+
   <!-- 升學動機與未來展望 Aspirations -->
   <section id="aspirations" class="container">
     <h2 class="section-title">升學目標與未來展望 <span>/ ASPIRATIONS</span></h2>
@@ -867,5 +1312,125 @@
     <p style="font-size: 0.8rem; margin-top: 0.4rem; color: #6b7280;">Built with Modern Responsive Web Design &amp; Hosted on GitHub Pages.</p>
   </footer>
 
+  <!-- Chart.js CDN & 圖表初始化腳本 -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // 1. 全球運動科技 (SportsTech) 柱狀與折線混合圖
+      const ctxTech = document.getElementById('sportsTechChart');
+      if (ctxTech) {
+        new Chart(ctxTech, {
+          type: 'bar',
+          data: {
+            labels: ['2023', '2024', '2025', '2026', '2028', '2030', '2033'],
+            datasets: [
+              {
+                type: 'line',
+                label: '成長趨勢線 (USD Billion)',
+                data: [15.9, 18.9, 23.0, 28.1, 45.0, 72.5, 119.6],
+                borderColor: '#f97316',
+                borderWidth: 3,
+                pointBackgroundColor: '#f97316',
+                pointRadius: 5,
+                tension: 0.35,
+                yAxisID: 'y'
+              },
+              {
+                type: 'bar',
+                label: '市場規模 (USD Billion)',
+                data: [15.9, 18.9, 23.0, 28.1, 45.0, 72.5, 119.6],
+                backgroundColor: 'rgba(249, 115, 22, 0.35)',
+                borderColor: '#ea580c',
+                borderWidth: 1.5,
+                borderRadius: 6,
+                yAxisID: 'y'
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                labels: { color: '#9ca3af', font: { family: 'Noto Sans TC' } }
+              },
+              tooltip: {
+                backgroundColor: '#111827',
+                titleColor: '#fff',
+                bodyColor: '#f97316',
+                borderColor: '#f97316',
+                borderWidth: 1,
+                callbacks: {
+                  label: function(context) {
+                    return `${context.dataset.label}: $${context.parsed.y}B`;
+                  }
+                }
+              }
+            },
+            scales: {
+              x: {
+                ticks: { color: '#9ca3af' },
+                grid: { color: 'rgba(255, 255, 255, 0.05)' }
+              },
+              y: {
+                ticks: { color: '#9ca3af', callback: v => '$' + v + 'B' },
+                grid: { color: 'rgba(255, 255, 255, 0.05)' }
+              }
+            }
+          }
+        });
+      }
+
+      // 2. 台灣運動經濟核心板塊甜甜圈圖
+      const ctxShare = document.getElementById('taiwanSportsShareChart');
+      if (ctxShare) {
+        new Chart(ctxShare, {
+          type: 'doughnut',
+          data: {
+            labels: ['運動用品與機能服飾', '健身房與運動課程', '職業賽事門票與傳播', '其他運動休閒服務'],
+            datasets: [{
+              data: [61.5, 20.2, 11.8, 6.5],
+              backgroundColor: [
+                '#f97316',
+                '#38bdf8',
+                '#eab308',
+                '#a855f7'
+              ],
+              borderColor: '#111827',
+              borderWidth: 3,
+              hoverOffset: 8
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                position: 'bottom',
+                labels: {
+                  color: '#d1d5db',
+                  font: { family: 'Noto Sans TC', size: 11 },
+                  padding: 12
+                }
+              },
+              tooltip: {
+                backgroundColor: '#111827',
+                titleColor: '#fff',
+                bodyColor: '#38bdf8',
+                borderColor: '#38bdf8',
+                borderWidth: 1,
+                callbacks: {
+                  label: function(context) {
+                    return ` ${context.label}: ${context.parsed}%`;
+                  }
+                }
+              }
+            },
+            cutout: '62%'
+          }
+        });
+      }
+    });
+  </script>
 </body>
 </html>
